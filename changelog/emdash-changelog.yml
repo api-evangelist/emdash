@@ -1,0 +1,50 @@
+generated: '2026-07-19'
+method: searched
+source: https://emdash.ai/changelog
+scheme: semver
+current_version: v1.1.40
+entries:
+- version: v1.1.40
+  date: '2026-07-17'
+  breaking: false
+  highlights:
+  - Zen mode keyboard shortcut
+  - '"Show in Finder" for files'
+  - Copy shared PR URLs from the pull request view
+- version: v1.1.39
+  date: '2026-07-14'
+  breaking: false
+  highlights:
+  - New chat UI generally available for all ACP-capable agents
+  - Fixes for chat, MCP, and remote task operations
+- version: v1.1.38
+  date: '2026-07-10'
+  breaking: false
+  highlights:
+  - Prompt queueing and chat export
+  - Notion integration
+  - Oh My Pi and OpenCode agents
+  - macOS voice mode support
+- version: v1.1.37
+  date: '2026-07-06'
+  breaking: false
+  highlights:
+  - MiMo Code coding agent
+  - Model selectors for Antigravity and Claude
+  - Grok MCP configuration support
+- version: v1.1.36
+  date: '2026-07-01'
+  breaking: false
+  highlights:
+  - CSV table previews
+  - Editable issue context templates
+  - Qoder CLI support
+  - Visual Studio in Open In menu
+- version: v1.1.35
+  date: '2026-06-23'
+  breaking: false
+  highlights:
+  - SSH port forwarding for remote previews
+  - Browser profiles
+  - Global auto-approve default
+  - Faster navigation shortcuts

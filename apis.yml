@@ -1,7 +1,16 @@
 aid: emdash
 name: Emdash
-description: Emdash is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Emdash (YC W26) is a free, open-source agentic development environment (ADE) built by General
+  Action, Inc. in San Francisco. It lets engineering teams run multiple AI coding agents such as
+  Claude Code and Codex in parallel, each isolated in its own git worktree so their work never
+  collides, then compare, review diffs, and open pull requests from one desktop app. Emdash supports
+  25+ coding agent providers without vendor lock-in, schedules recurring agent work (bug sweeps,
+  release prep, reviews), previews apps in a built-in browser, runs agents on remote machines over
+  SSH, and manages a shared library of reusable prompts, skills, and MCP servers. It is a
+  local-first desktop application (macOS, Windows, Linux) distributed as signed binaries and a
+  Homebrew cask rather than a hosted web API; there is no public REST API surface. Not related to the
+  em dash punctuation mark.
 url: https://raw.githubusercontent.com/api-evangelist/emdash/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,80 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://emdash.ai/opengraph-image.png
 tags:
 - Company
+- Developer Tools
+- AI Coding Agents
+- Agentic Development Environment
+- Open Source
+- Desktop Application
+- Developer Productivity
+- Git Worktrees
+- MCP
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://emdash.ai
+- type: DeveloperPortal
+  url: https://emdash.ai/docs
+- type: Documentation
+  url: https://emdash.ai/docs
+- type: GettingStarted
+  url: https://emdash.ai/docs/installation.md
+- type: Roadmap
+  url: https://emdash.ai/docs/roadmap.md
+- type: Blog
+  url: https://emdash.ai/blog
+- type: BlogRSS
+  url: https://emdash.ai/blog/rss.xml
+- type: ChangeLog
+  url: https://emdash.ai/changelog
+- type: GitHubOrganization
+  url: https://github.com/generalaction
+- type: SourceCode
+  url: https://github.com/generalaction/emdash
+- type: Support
+  url: https://discord.com/invite/f2fv7YxuR2
+- type: SignUp
+  url: https://emdash.ai/download
+- type: TermsOfService
+  url: https://emdash.ai/terms
+- type: PrivacyPolicy
+  url: https://emdash.ai/privacy
+- type: LLMsTxt
+  url: llms/emdash-llms.txt
+- type: Packages
+  url: packages/emdash-packages.yml
+- type: ChangeLog
+  url: changelog/emdash-changelog.yml
+  name: Emdash changelog (structured)
+- type: WellKnown
+  url: well-known/emdash-well-known.yml
+- type: DomainSecurity
+  url: security/emdash-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

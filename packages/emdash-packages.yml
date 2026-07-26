@@ -1,0 +1,32 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/generalaction/emdash
+notes: >-
+  Emdash is a local-first desktop application, not a client SDK library. It is distributed as signed
+  binaries via GitHub releases and a first-party Homebrew cask. No npm / PyPI / other client-library
+  package is published (repo is TypeScript/Electron but ships as compiled desktop binaries only), so
+  no SDKs pointer is emitted.
+packages:
+- language: shell
+  registry: homebrew
+  name: emdash
+  kind: cask
+  url: https://formulae.brew.sh/cask/emdash
+  install: brew install --cask emdash
+  official: true
+- language: binary
+  registry: github-releases
+  name: generalaction/emdash
+  kind: desktop-app
+  url: https://github.com/generalaction/emdash/releases
+  platforms:
+  - macOS (Apple Silicon + Intel DMG)
+  - Windows (MSI + portable exe)
+  - Linux (AppImage + Debian package)
+  official: true
+- language: binary
+  registry: emdash.ai
+  name: Emdash Download
+  kind: desktop-app
+  url: https://emdash.ai/download
+  official: true

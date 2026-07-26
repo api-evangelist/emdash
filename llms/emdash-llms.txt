@@ -1,0 +1,47 @@
+# Emdash
+
+> Emdash (YC W26) is a free, open-source agentic development environment: run coding agents like Claude Code and Codex in parallel, schedule agent work, and review changes in one place. Available for macOS, Windows, and Linux.
+
+Emdash (YC W26) is built by General Action, Inc. in San Francisco and is open source at https://github.com/generalaction/emdash. Emdash is a software product and is not related to the em dash punctuation mark.
+
+## Docs
+
+- [Automations](https://emdash.ai/docs/automations.md): Schedule recurring tasks in Emdash
+- [Remote Tasks](https://emdash.ai/docs/bring-your-own-infrastructure.md): This page moved to Remote Development
+- [CI/CD Checks](https://emdash.ai/docs/ci-checks.md): Monitor GitHub Actions check runs directly in Emdash
+- [Contributing](https://emdash.ai/docs/contributing.md): Help improve Emdash - contribution guidelines and development setup
+- [Diff View](https://emdash.ai/docs/diff-view.md): Review and manage code changes
+- [File Editor](https://emdash.ai/docs/file-editor.md): Edit files directly in Emdash
+- [GitHub Accounts](https://emdash.ai/docs/github-accounts.md): Connect one or more GitHub accounts for issues, pull requests, checks and repositories
+- [In-App Browser](https://emdash.ai/docs/in-app-browser.md): Preview web apps and pages inside a task
+- [Emdash Overview](https://emdash.ai/docs): Open Source Agentic Development Environment (ADE)
+- [Installation](https://emdash.ai/docs/installation.md): Get started with Emdash
+- [Passing Issues](https://emdash.ai/docs/issues.md): Create tasks from connected issue trackers and support tools
+- [Keyboard Shortcuts](https://emdash.ai/docs/keyboard-shortcuts.md): Default keyboard shortcuts in Emdash
+- [Project Settings](https://emdash.ai/docs/project-config.md): Configure how Emdash creates and runs tasks for a project
+- [Providers](https://emdash.ai/docs/providers.md): Supported coding agents and CLI providers
+- [Remote Projects](https://emdash.ai/docs/remote-projects.md): This page moved to Remote Development
+- [Roadmap](https://emdash.ai/docs/roadmap.md): Emdash Product Roadmap
+- [Tasks](https://emdash.ai/docs/tasks.md): How to work on tasks in Emdash
+- [Telemetry](https://emdash.ai/docs/telemetry.md): What data Emdash collects, what it doesn't, and how to opt out
+- [Tmux Sessions](https://emdash.ai/docs/tmux-sessions.md): Persistent agent and terminal sessions with tmux
+- [Library](https://emdash.ai/docs/library.md): Manage reusable prompts, skills, and MCP servers for your agents
+- [MCP Servers](https://emdash.ai/docs/library/mcp.md): Connect your agents to external tools and data sources via MCP
+- [Prompts](https://emdash.ai/docs/library/prompts.md): Save reusable prompts and insert them into task conversations
+- [Skills](https://emdash.ai/docs/library/skills.md): Extend your agents with reusable skill modules
+- [Remote Tasks](https://emdash.ai/docs/remote-development/bring-your-own-infrastructure.md): This page moved to Remote Tasks
+- [Remote Development](https://emdash.ai/docs/remote-development.md): Run Emdash work on remote machines and managed workspaces
+- [Remote Projects](https://emdash.ai/docs/remote-development/remote-projects.md): Run Emdash projects, tasks, terminals, and agents on a remote machine over SSH
+- [Remote Tasks](https://emdash.ai/docs/remote-development/remote-tasks.md): Provision and tear down per-task remote workspaces with your own infrastructure scripts
+- [SSH Connections](https://emdash.ai/docs/remote-development/ssh-connections.md): Manage reusable SSH connections, local SSH config aliases, proxying and agent forwarding
+
+## Blog
+
+- [Emdash v1](https://emdash.ai/blog/emdash-v1-stable): The stable release of Emdash v1 for macOS, Windows, and Linux.
+- [Emdash public v1 beta](https://emdash.ai/blog/public-v1-beta): The public v1 beta of Emdash is now available.
+
+## Optional
+
+- [Download](https://emdash.ai/download): Installers for macOS, Windows, and Linux
+- [Changelog](https://emdash.ai/changelog): Release notes for every version
+- [Cloud](https://emdash.ai/cloud): Cloud workspaces for AI coding agents

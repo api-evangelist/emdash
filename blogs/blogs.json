@@ -1,0 +1,28 @@
+{
+  "repo": "emdash",
+  "feeds": [
+    {
+      "source": "https://emdash.ai/docs/roadmap.md",
+      "feed_url": "https://emdash.ai/docs/roadmap.md",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://emdash.ai/blog/rss.xml",
+      "feed_url": "https://emdash.ai/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://emdash.ai/blog",
+      "feed_url": "https://emdash.ai/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 2,
+  "fetched": "2026-07-25T15:00:33Z"
+}

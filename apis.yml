@@ -46,6 +46,15 @@ tags:
 - Y Combinator
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/generalaction/emdash/issues
+- type: Releases
+  url: https://github.com/generalaction/emdash/releases
+- type: ContributionGuide
+  url: https://github.com/generalaction/emdash/blob/main/CONTRIBUTING.md
+- type: License
+  name: Apache-2.0
+  url: https://github.com/generalaction/emdash/blob/main/LICENSE
 - type: Website
   url: https://emdash.ai
 - type: DeveloperPortal

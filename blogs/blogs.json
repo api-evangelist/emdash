@@ -16,13 +16,20 @@
       "method": "feed"
     },
     {
-      "source": "https://emdash.ai/blog",
+      "source": "https://emdash.com/blog/rss.xml",
       "feed_url": "https://emdash.com/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://emdash.ai/blog",
+      "feed_url": "https://emdash.ai/blog/rss.xml",
       "title": "",
       "saved": 0,
       "method": "discovered"
     }
   ],
-  "post_count": 2,
-  "fetched": "2026-08-15T12:22:01Z"
+  "post_count": 3,
+  "fetched": "2026-08-22T20:20:02Z"
 }

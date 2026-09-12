@@ -2,6 +2,13 @@
   "repo": "emdash",
   "feeds": [
     {
+      "source": "https://emdash.ai/blog",
+      "feed_url": "https://emdash.ai/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
       "source": "https://emdash.ai/docs/roadmap.md",
       "feed_url": "https://emdash.ai/docs/roadmap.md",
       "title": "",
@@ -13,9 +20,7 @@
       "feed_url": "https://emdash.ai/blog/rss.xml",
       "title": "",
       "saved": 0,
-      "method": "feed",
-      "nature": "vendor-blog",
-      "nature_basis": "path_blog"
+      "method": "feed"
     },
     {
       "source": "https://emdash.com/blog/rss.xml",
@@ -23,19 +28,10 @@
       "title": "",
       "saved": 0,
       "method": "feed"
-    },
-    {
-      "source": "https://emdash.ai/blog",
-      "feed_url": "https://emdash.ai/blog/rss.xml",
-      "title": "",
-      "saved": 0,
-      "method": "discovered",
-      "nature": "vendor-blog",
-      "nature_basis": "path_blog"
     }
   ],
   "post_count": 3,
-  "fetched": "2026-08-30T22:33:40Z",
+  "fetched": "2026-09-06T19:17:18Z",
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
   "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."

@@ -1,20 +1,23 @@
 generated: '2026-07-19'
 method: searched
 host: https://emdash.ai
-notes: >-
-  Emdash publishes no /.well-known discovery documents (all probed paths returned 404). It does serve
+notes: Emdash publishes no /.well-known discovery documents (all probed paths returned 404). It does serve
   an /llms.txt, which is captured verbatim at llms/emdash-llms.txt.
-documents:
-- path: /llms.txt
-  status: 200
-  file: ../llms/emdash-llms.txt
-- path: /.well-known/security.txt
-  status: 404
-- path: /.well-known/openid-configuration
-  status: 404
-- path: /.well-known/oauth-authorization-server
-  status: 404
-- path: /.well-known/api-catalog
-  status: 404
-- path: /.well-known/ai-plugin.json
-  status: 404
+hosts:
+- host: https://emdash.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
